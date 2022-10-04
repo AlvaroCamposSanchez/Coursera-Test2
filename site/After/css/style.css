@@ -1,0 +1,628 @@
+body {
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+/* NAV HEADER INICIO*/
+
+
+.navbar {
+    background-color:#f6b319;
+    border: 0;
+    border-radius:0;
+    margin:0;
+}
+
+.navbar-header {
+    margin-left: 0vh;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.navbar-header button.navbar-toggler {
+    clear: both;
+}   
+
+#logo-img {
+    width: 162.5px;
+    height: 160px;
+    margin: 10px 20px 20px 0;
+    
+    
+}
+
+.navbar-brand {
+    margin-top: -15.5vh;
+    padding-left: 200px;
+    padding-right: 20px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif; 
+    color: #557c3e;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+.navbar-brand p span {
+    vertical-align: middle;
+}
+
+
+nav .navbar-toggler {
+    margin: 20px;
+    margin-right: 50px;
+    margin-top: 40px;
+    border: 1px solid transparent;
+}
+
+
+/* Información */
+
+.navbar-expand-lg {
+    margin-top: .5vh;
+    margin-left: 5vh;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    
+    color: #fff;
+}
+
+.fa-utensils, .fa-circle-info, .fa-certificate, .fa-user-chef, .fa-map-location-dot {
+    color: #61122f;
+    margin-left: 2px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Telefono */
+
+
+#phone {
+    position: absolute;
+    text-decoration: none;
+    margin-left: 173vh;
+    margin-top: 1.2vh;
+}
+
+#phone a{
+    text-align: left;
+    padding-bottom: 0;
+    text-decoration: none;
+    color: #61122f;
+    font-size: 30px;
+}
+
+#phone a:hover{
+    background-color: #fff;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+#phone div{
+    color: #557c3e;
+    text-align: right;
+    font-size: 15px;
+}
+
+.fa-phone {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+
+
+/* NAV HEADER FIN */
+
+
+
+/* Home page */
+
+#main-content {
+    margin-top: 3vh;
+    margin-left: 25vh;
+}
+
+#main-content img {
+    box-shadow: 0 0 60px #3F0C1F;
+    border:2px solid #3F0C1F ;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 99%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left: 18vh;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+    border-radius: 20px;
+}
+
+#menu-tile img{
+    height: 250px;
+   width: 100%;
+}
+
+#specials-tile img {
+    height: 250px;
+    width: 100%;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+
+
+
+/* End home page */
+
+
+/* Menu Category */
+
+.category-title {
+    position: relative;
+    border:2px solid #3F0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+
+}
+
+.category-title span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+.category-title:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories + div {
+    margin-bottom: 50px;
+}
+
+/* END menu category page */
+
+/* Single category page */
+
+h2#menu-categories-title {
+     /* margin-top: 15px;  */
+     /* margin-bottom: 30px;  */
+}
+
+
+.menu-item-tile hr {
+    width: 80%;
+}
+
+
+
+.menu-item-price {
+    margin-left: 1.5em;
+    font-size: 1.1em;
+}
+
+.menu-item-tile .menu-item-price span {
+    font-size: .6em;
+}
+
+.menu-item-photo {
+    margin-top: 2px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden; 
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 4px;
+    max-width: 250px;
+}
+
+.menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+}
+
+.menu-item-description {
+    padding-right: 30px;
+}
+
+h3.menu-item-title {
+     position: relative;
+    left: 30vh;
+    top: -26vh; 
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.menu-item-details {
+     position: relative;
+    left: 30vh;
+    top: -23vh; 
+    font-size: .9em;
+    font-style: italic;
+    /* text-align: center; */
+}
+
+
+
+/* Footer */
+.panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    color: #ffff;
+}
+
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+
+#hours, #address {
+    line-height: 2;
+}
+
+#hours > span, #address > span {
+    font-size: 1.3rem;
+}
+
+#address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+
+#testimonials {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#testimonials p:nth-child(2) {
+    margin-top: 25px;
+}
+
+
+
+
+/* Large Device */
+@media (min-width: 992px) {
+
+}
+
+/* Medium Devices */
+@media (min-width: 768px) and (max-width: 992px) {
+
+    #logo-img {
+        width: 100px;
+        height: 100px;
+        margin: 10px 20px 20px 0;
+    }
+
+    .navbar-brand  {
+        margin-top: 20px;
+    }
+
+    .navbar-expand-lg {
+        margin-top: 20px;
+    }
+
+
+
+
+    
+}
+
+/* Small Devices  */
+
+@media (min-width: 576px) and (max-width: 991px){
+
+    #logo-img {
+        width: 158.5px;
+        height: 156px;
+        margin: 5px 5px 5px 0;
+        margin-left: 10px;
+    }
+    #menu-tile, #specials-tile, #map-tile {
+        height: 180px;
+        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        margin-left: 13vh;
+        position: relative;
+        border: 2px solid #3F0C1F;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    #specials-tile img {
+        height: 180px;
+        width: 80%;
+        
+    }
+    
+
+    .navbar-brand  {
+        margin-top: -13.7vh;
+    }
+
+    nav .navbar-toggler {
+        margin: 20px;
+        margin-right: 35px;
+        margin-top: 6.5vh;
+        margin-bottom: 5px;
+        border: 1px solid transparent;
+    }
+
+    #phone {
+        margin-top: 35vh;
+        margin-left: 24vh;
+    }
+
+    div #xs-deliver {
+        color: white;
+        font-size: .7rem;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        margin-top: 5px;
+    }
+    
+    #call-btn > a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 50px;
+        padding: 10px;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+    }
+
+    #main-content {
+        margin-top: 20vh;
+        margin-left: -6.7vh;
+    }
+    
+    #main-content img {
+          height: 290px;
+         width: 575px;  
+        box-shadow: 0 0 60px #3F0C1F;
+        border:2px solid #3F0C1F ;
+    }
+
+    .menu-item-photo img.img-fluid{
+        width: 25px;
+        height: 30px;
+    }
+    
+}
+
+/* XS Small Devices */
+
+@media (min-width: 166px) and (max-width: 761px) {
+
+    #logo-img {
+        width: 0px;
+        height: 0px;
+        margin: 10px 20px 20px 0;
+    }
+
+    .navbar-brand {
+        margin-top: -2.3vh;
+        padding-left: 5px;
+        padding-right: 20px;
+    }
+
+    .navbar-brand img{
+        width: 25px;
+        height: 25px;
+
+    }
+
+
+    .navbar-brand h1{
+        /* margin-top: .5vh; */
+        padding-left: 10px;
+        padding-right: 30px;
+        font-size:1.2rem;
+    }
+
+    .navbar-brand p{
+        font-size: 12px;
+        margin-left: 9px;
+    }
+
+
+
+    nav .navbar-toggler {
+        margin: 20px;
+        margin-right: 13px;
+        margin-top: 3.2vh;
+        margin-bottom: 5px;
+        border: 1px solid transparent;
+    }
+
+    #phone {
+        margin-top: 35vh;
+        margin-left: 10vh;
+    }
+
+    div #xs-deliver {
+        color: white;
+        font-size: .7rem;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        margin-top: 5px;
+    }
+    
+    #call-btn > a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+    }
+
+    #main-content {
+        margin-top: 20vh;
+        margin-left: 2.5vh;
+    }
+    
+    #main-content img {
+          height: 162.5px;
+         width: 325px;  
+        box-shadow: 0 0 60px #3F0C1F;
+        border:2px solid #3F0C1F ;
+    }
+
+    #menu-tile, #specials-tile, #map-tile {
+        height: 150px;
+        width: 49%;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        margin-left: 11vh;
+        position: relative;
+        border: 2px solid #3F0C1F;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    #menu-tile span, #specials-tile span, #map-tile span {
+        
+        font-size: .8rem;
+    }
+
+    h3.menu-item-title {
+            position: relative;
+           left: 4.5vh;
+           top: 2vh; 
+           font-size: 1.3em;
+           margin: 0 0 10px;
+       }
+       
+       .menu-item-details {
+            position: relative;
+           left: 1.5vh;
+           top: 5vh; 
+           font-size: .9em;
+           font-style: italic;
+           margin-bottom: 30px;
+           text-align: center;
+       }
+
+       .menu-item-price {
+        margin-left: 7em;
+        font-size: .9em;
+    }
+
+    .menu-item-photo {
+        margin-top: 50px;
+        position: relative;
+        border: 2px solid #3F0C1F;
+        overflow: hidden; 
+        padding: 0;
+        /* margin-right: -15px; */
+        margin-left: 3vh;
+        margin-bottom: 20px;
+        max-width: 250px;
+    }
+    
+       
+
+}
+
+
+
+@media (min-width: 160px) and (max-width: 280px) {
+
+    #logo-img {
+        width: 0px;
+        height: 0px;
+        margin: 10px 20px 20px 0;
+    }
+
+    .navbar-brand {
+        margin-top: 5vh;
+        padding-left: 5px;
+        padding-right: 20px;
+    }
+
+    .navbar-brand h1 {
+        font-family: 'Lora', serif; 
+        color: #557c3e;
+        font-size: 1rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: .75;
+    }
+
+    nav .navbar-toggler {
+        /* margin: 20px; */
+        margin-right: 2px;
+        margin-top: 2vh;
+        border: 1px solid transparent;
+    }
+    
+}
